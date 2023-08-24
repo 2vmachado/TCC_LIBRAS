@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../img/Logotipo.png" type="image/x-icon">
+  <title>Quiz</title>
+  
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    
+  <div class="header">
+    <h1>Quiz</h1>
+  </div>
+  <nav class="navigation">
+    <ul>
+      <li><a href="principal.html">Principal</a></li>
+      <li><a href="aprender-libras.html">Aprender Libras</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  <br>
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+    <form id="quizForm">
+      <div class="question">1. O que significa esse sinal?</div>
+      <div class="options">
+        <img src="../img/bom dia.jpg" alt="Descrição da imagem">
+
+        <label>
+          <input type="radio" name="q1" value="a"> a) Bom dia!
+        </label>
+        <label>
+          <input type="radio" name="q1" value="b"> b) Estou atrasado!
+        </label>
+        <label>
+          <input type="radio" name="q1" value="c"> c) Preciso ir!
+        </label>
+      </div>
+
+      <div class="question">2. O que significa esse sinal</div>
+      <div class="options">
+        <img src="../img/te amo.jpg" alt="Descrição da imagem">
+        <label>
+          <input type="radio" name="q2" value="a"> a) Paz!
+        </label>
+        <label>
+          <input type="radio" name="q2" value="b"> b) Te amo!
+        </label>
+        <label>
+          <input type="radio" name="q2" value="c"> c) Estou com sede!
+        </label>
+      </div>
+
+      <br>
+      <button type="button" class="submit-btn" onclick="verificarRespostas()">Enviar Respostas</button>
+    </form>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    function verificarRespostas() {
+      const respostasCorretas = ["a", "b"]; 
+      const quizForm = document.getElementById("quizForm");
+      let pontuacao = 0;
+
+      for (let i = 1; i <= 2; i++) { 
+        const selectedAnswer = document.querySelector(`input[name=q${i}]:checked`);
+
+        if (!selectedAnswer) {
+          alert(`Por favor, responda a pergunta ${i} antes de enviar.`);
+          return;
+        }
+
+        if (selectedAnswer.value === respostasCorretas[i - 1]) {
+          pontuacao++;
+        }
+      }
+
+      const resultElement = document.getElementById("result");
+      resultElement.textContent = `Você acertou ${pontuacao} de 2 perguntas!`; 
+    }
+  </script>
+<br>
+<footer>
+  <h3>Matagal Enterprise</h3>
+</footer>
+
+</body>
+</html>

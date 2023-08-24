@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+  <title>Página Principal</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="../img/Logotipo.png" type="image/x-icon">
+  
+
+
+
+
+
+  <style>
+      
+  </style>
+</head>
+<body>
+  <div class="header">
+  <h1 >Bem-vindo ao Nosso Site</h1>
+  </div>
+
+  <nav class="navigation">
+    <ul>
+      <li><a href="principal.html">Principal</a></li>
+      <li><a href="aprender-libras.html">Aprender Libras</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+
+
+
+<br>
+  <div class="container2">
+    <h1>Sobre o site</h1>
+    <h3>Este site tem o objetivo de ensinar as pessoas
+      o básico sobre Libras, o pontapé inicial para um
+      aprendizado mais completo. 
+      Disponibilizamos em nosso site o "Aprender Libras",
+      onde você pode aprender mais 
+      sobre como ter uma conversa com uma pessoa com 
+      deficiência auditiva, ou apenas aprender sobre.
+    </h3>
+  </div>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yo3rIT1dEbo" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
+  <div class="carousel-container">
+    <div class="carousel">
+      <img src="../img/slide1.jpg" alt="Imagem 1">
+      <img src="../img/Libras.jpg" alt="Imagem 2">
+    </div>
+  </div>
+  
+ <br>
+<footer>
+  <h3>Matagal Enterprise</h3>
+</footer>
+
+
+<script>
+  const carousel = document.querySelector('.carousel');
+  const images = document.querySelectorAll('.carousel img');
+  let currentIndex = 0;
+
+  function slide() {
+    currentIndex = (currentIndex + 1) % images.length;
+    const offset = currentIndex * -100;
+    carousel.style.transform = `translateX(${offset}%)`;
+  }
+
+  setInterval(slide, 3000); // Troca de slide a cada 3 segundos
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

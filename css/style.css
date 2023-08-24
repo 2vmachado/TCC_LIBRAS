@@ -1,0 +1,305 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/Fund0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Estilos da página principal */
+.header {
+
+  background-image: url('../img/Fund0.jpg');
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header h1 {
+  color: white; /* Ou outra cor que contraste bem com o fundo roxo */
+}
+
+
+
+.content {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  /* Estilos da navegação */
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+  }
+  
+  .navigation li {
+    float: left;
+    border-radius: 10%;
+    margin-right: 20px;
+  }
+  
+  .navigation li a {
+    display: block;
+    border-radius: 10%;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation li a:hover {
+    background-color: #ddd;
+    border-radius: 10%;
+  }
+  
+  /* Estilos das categorias */
+  .categorias {
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .categorias h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+  }
+  
+  .categorias p {
+    margin-bottom: 10px;
+    border-radius: 10%;
+  }
+  
+  /* Estilos do formulário de contato */
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea {
+    width: 100%;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .formulario textarea {
+    height: 120px;
+    border-radius: 10%;
+  }
+  
+  .formulario button[type="submit"] {
+    width: 100%;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: #9427ee;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+
+.container2 {
+  
+  float: left;
+  width: 500px;
+  height: 270px;
+  border: 2px solid #ccc;
+  border-radius: 10%;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff; 
+  
+}
+
+.container1 {
+  width: 500px;
+  height: 270px;
+  border: 2px solid #ccc;
+  border-radius: 10%;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff; 
+  margin: 0 auto;
+}
+
+.container-centro {
+  width: 500px; 
+  height: 270px;
+  border: 2px solid #ccc;
+  border-radius: 10px; 
+  padding: 42px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto; 
+  
+}
+
+/* QUIZ */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+ 
+}
+.options img {
+  max-width: 200px;
+  height: auto;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.options img:hover {
+  border: 2px solid #ffffff;
+}
+h1 {
+  color: #000000;
+}
+
+.quiz-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2196F3;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.options input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #cf62cf;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e196e7;
+}
+
+.result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+ /* Vídeo da Tela Principal */
+
+ .video-container {
+  width: 560px; 
+  height: 315px; 
+  border: 2px solid #ccc;
+  border-radius: 10px; 
+  overflow: hidden; 
+  float: right;
+
+    
+  
+}
+
+ /* Parte de baixo */
+
+
+ footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 11px; 
+  font-size: 14px;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  bottom: 0;
+  width: 99,5%;
+  margin-top: 39px;
+}
+
+
+
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  max-height: 300px; /* Ajuste a altura máxima conforme necessário */
+  margin-top: auto; /* Centraliza verticalmente */
+  margin-bottom: auto;
+  transform: translateX(0); /* Inicialmente, posiciona na primeira imagem */
+  margin-top: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
