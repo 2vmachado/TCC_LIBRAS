@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     background-image: url('../img/Fund0.jpg');
@@ -8,7 +8,7 @@ body {
   
   
 
-/* Estilos gerais */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -16,7 +16,7 @@ body {
 }
 
 
-/* Estilos da página principal */
+
 .header {
 
   background-image: url('../img/Fund0.jpg');
@@ -26,7 +26,7 @@ body {
 }
 
 .header h1 {
-  color: white; /* Ou outra cor que contraste bem com o fundo roxo */
+  color: white; 
 }
 
 
@@ -39,7 +39,7 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -48,7 +48,7 @@ body {
   
 
   
-  /* Estilos da navegação */
+  
   .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -77,7 +77,7 @@ body {
     border-radius: 10%;
   }
   
-  /* Estilos das categorias */
+  
   .categorias {
     margin: 30px auto;
     max-width: 600px;
@@ -98,7 +98,7 @@ body {
     border-radius: 10%;
   }
   
-  /* Estilos do formulário de contato */
+  
   .formulario input[type="text"],
   .formulario input[type="email"],
   .formulario textarea {
@@ -283,10 +283,10 @@ h1 {
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
-  max-height: 300px; /* Ajuste a altura máxima conforme necessário */
-  margin-top: auto; /* Centraliza verticalmente */
+  max-height: 300px; 
+  margin-top: auto; 
   margin-bottom: auto;
-  transform: translateX(0); /* Inicialmente, posiciona na primeira imagem */
+  transform: translateX(0); 
   margin-top: 20px;
 }
 
